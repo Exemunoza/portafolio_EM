@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Exequiel</title>
+  <!-- Bootstrap por CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- Navbar con Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Exequiel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Formación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero estilo perfil -->
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="text-white">
+      <h1 class="display-3 fw-bold">Exequiel Muñoza</h1>
+      <p class="lead">Contador Auditor - Desarrollador Fullstack</p>
+      <p class="mt-3">Apasionado por construir APIs escalables, integrar soluciones seguras y documentar proyectos de forma clara.</p>
+      <a href="#projects" class="btn btn-outline-light btn-lg mt-4">Explora mis proyectos</a>
+    </div>
+  </header>
+
+  <!-- Secciones -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center mb-4">Sobre mí</h2>
+    <p class="text-center">Soy estudiante avanzado de auditoría y desarrollo web, con experiencia liderando proyectos técnicos y colaborativos. Me especializo en arquitecturas modulares con Node.js/Express, seguridad con JWT y documentación reproducible.</p>
+  </section>
+
+  <section id="education" class="container py-5">
+    <h2 class="text-center mb-4">Formación</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Curso Fullstack Developer</h5>
+            <p class="card-text">HTML, CSS, JavaScript, Node.js, Express, MongoDB y React. Integración frontend-backend y despliegue en la nube.</p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Curso de Java</h5>
+            <p class="card-text">Programación orientada a objetos, herencia, polimorfismo, manejo de excepciones y conexión a bases de datos con JDBC.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Proyectos</h2>
+      <div class="row">
+        <div class="col-md-4"><div class="card"><div class="card-body"><h5>API Productos</h5><p>Node.js/Express con JWT.</p></div></div></div>
+        <div class="col-md-4"><div class="card"><div class="card-body"><h5>Sistema Contable</h5><p>Automatización financiera.</p></div></div></div>
+        <div class="col-md-4"><div class="card"><div class="card-body"><h5>Galería CSS</h5><p>Diseño visual y estilos.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <div class="text-center">
+      <p>Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario">linkedin.com/in/tuusuario</a></p>
+      <p>GitHub: <a href="https://github.com/Exemunoza">github.com/Exemunoza</a></p>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Exequiel Muñoza - Portafolio Personal</p>
+  </footer>
+
+  <!-- Bootstrap JS por CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
