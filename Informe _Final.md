@@ -1,81 +1,96 @@
-# Informe Final del Proyecto – Portafolio Exequiel
+1. Revisión del Producto
+Funcionalidades implementadas con éxito:
 
-## 1. Revisión del Producto
+Página principal (index.html) con estructura clara y responsive.
 
-- **Funcionalidades implementadas con éxito:**
-  - Servidor local con **Node.js + Express** para servir el portafolio.
-  - **Navbar responsivo con Bootstrap** enlazando a secciones clave (Sobre mí, Formación, Proyectos, Contacto).
-  - **Hero inicial** estilo profesional con tu nombre y perfil.
-  - Secciones completas:
-    - **Sobre mí** con descripción personal y profesional.
-    - **Formación** (Curso Fullstack y Curso de Java).
-    - **Proyectos** enlazados a repositorios de GitHub.
-    - **Contacto** con email, LinkedIn y GitHub.
-  - **Scroll suave en JS** para navegación fluida.
-  - **README.md** con documentación clara (instalación, dependencias, estructura).
+Integración de estilos desde public/css/style.css.
 
-- **Partes que aún podrían mejorarse:**
-  - Diseño visual del hero (imagen de fondo más personalizada).
-  - Agregar **capturas de pantalla** de proyectos en la sección de proyectos.
-  - Implementar **dark mode** opcional.
-  - Mejorar validaciones y accesibilidad (ej. etiquetas ARIA).
+Scripts básicos funcionando desde public/js/script.js.
 
-- **Errores o fallos identificados:**
-  - Inicialmente hubo problemas con dependencias (`express`, `proxy-addr`) por instalación incompleta.
-  - El servidor se caía con nodemon hasta reinstalar `node_modules`.
-  - No hay errores visibles en frontend, pero falta optimización de imágenes.
+Enlace a archivos adicionales (ej. PDF) mediante botones.
 
----
+Publicación exitosa en GitHub Pages: https://exemunoza.github.io/portafolio_EM/.
 
-## 2. Depuración y Mejora
+Partes que podrían mejorarse:
 
-- **Correcciones realizadas:**
-  - Reinstalación de dependencias (`express`, `nodemon`).
-  - Ajuste de sintaxis ES6 en `server.js` (`import` en lugar de `require`).
-  - Verificación de rutas y estructura (`views/index.html` correctamente servido).
+Optimización de rutas y organización de carpetas (views vs public).
 
-- **Refactorización:**
-  - Separación de archivos en carpetas (`public/css`, `public/js`, `views`).
-  - Uso de funciones flecha y `const/let` en JS.
-  - Documentación en `README.md` y comentarios en `server.js`.
+Diseño visual (colores, tipografía, consistencia de estilos).
 
-- **Documentación:**
-  - README actualizado con instrucciones de instalación, dependencias y estructura.
-  - Comentarios en el código para explicar middleware y rutas.
+Documentación más detallada en README.md.
 
----
+Errores o fallos identificados:
 
-## 3. Feedback y Retroalimentación
+Inicialmente, error 404 en GitHub Pages por ubicación incorrecta de index.html.
 
-- **Feedback recibido:**
-  1. **Agregar capturas de proyectos** para hacerlo más visual.  
-  2. **Mejorar la sección de formación** con más detalle sobre el curso de Java.  
-  3. **Optimizar la experiencia móvil** (navbar y hero más adaptados a pantallas pequeñas).
+Advertencias de Git sobre CRLF/LF en package.json (no afectan funcionalidad, pero se pueden normalizar).
 
-- **Cambios implementados:**
-  - Se amplió la sección de formación con detalles del curso de Java.
-  - Se ajustó el hero con tipografía más clara y botón destacado.
-  - Se planificó agregar capturas de pantalla y optimizar imágenes.
+Algunos enlaces internos no cargaban correctamente hasta ajustar rutas.
 
----
+2. Depuración y Mejora
+Correcciones realizadas:
 
-## 4. Ajustes Finales y Cierre
+Reubicación de index.html en la raíz del repositorio.
 
-- **Cambios finales:**
-  - Código limpio y estructurado en carpetas.
-  - README completo con dependencias y pasos de ejecución.
-  - Scroll suave en JS para mejorar UX.
-  - Navbar fijo y responsivo con Bootstrap.
+Ajuste de rutas a CSS/JS para que funcionen en GitHub Pages.
 
-- **Evidencias:**
-  - Repositorio en GitHub: [Portafolio_Exequiel](https://github.com/Exemunoza/Portafolio_Exequiel)  
-  - Capturas de pantalla del portafolio (pendiente de agregar).  
-  - Servidor local funcionando en `http://localhost:3000`.
+Eliminación de dependencias innecesarias en package.json para la versión estática.
 
----
+Refactorización:
 
-## 5. Reflexión Personal
+Separación clara de archivos estáticos en public/.
 
-Este proyecto me permitió integrar lo aprendido en el curso de **Fullstack Developer** y **Java**, aplicando buenas prácticas de modularidad, documentación y diseño responsivo.  
-Me enfrenté a problemas técnicos con dependencias y configuración de servidor, pero logré resolverlos con persistencia y depuración.  
-La experiencia reforzó mi capacidad de **liderar proyectos técnicos**, documentar procesos y presentar un producto final profesional.  
+Uso de comentarios en el código para mayor legibilidad.
+
+Documentación:
+
+Actualización de README.md con instrucciones de uso, dependencias y enlace a GitHub Pages.
+
+3. Feedback y Retroalimentación
+Sugerencias recibidas:
+
+Mejorar la paleta de colores y tipografía para un look más profesional.
+
+Agregar sección de proyectos destacados con capturas y enlaces.
+
+Incluir un formulario de contacto funcional.
+
+Cambios a implementar:
+
+Ajustar CSS con Bootstrap o una paleta más moderna.
+
+Crear una sección “Proyectos” en index.html.
+
+Añadir un formulario básico con validación en public/js/script.js.
+
+4. Ajustes Finales y Cierre
+Cambios finales realizados:
+
+Sección de proyectos añadida.
+
+Estilos refinados con Bootstrap.
+
+Formulario de contacto básico implementado.
+
+Pruebas:
+
+Verificación de enlaces y botones.
+
+Test en GitHub Pages para confirmar despliegue correcto.
+
+Revisión en distintos navegadores (Chrome, Edge, Firefox).
+
+Entregable final:
+
+Código limpio y estructurado.
+
+Documentación completa (README.md).
+
+Evidencias: capturas de pantalla, enlace al repositorio y despliegue en GitHub Pages.
+
+5. Entrega del Proyecto
+Descripción final del producto: Portafolio personal online, con secciones de presentación, proyectos, contacto y documentación clara.
+
+Mejoras aplicadas tras la revisión: Reubicación de archivos, corrección de rutas, optimización visual y adición de nuevas secciones.
+
+Reflexión personal: El proceso me permitió comprender mejor la importancia de la organización del proyecto, la documentación y la publicación en GitHub Pages. Aprendí a depurar errores, a estructurar el código de forma más clara y a pensar en la experiencia del usuario final.
