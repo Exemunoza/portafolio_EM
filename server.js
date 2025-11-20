@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 3000;
 
+
 // Servir archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
 
